@@ -1,0 +1,7 @@
+%%MinNumTransitionsSQL = 1
+%%MaxNumTransitionsSQL = 0
+%%MaxElowSQL = 1000000.0
+%%MingASQL = 0.0
+%%OrderTransSQL = 1
+C2H5OH;v=0;	1
+1.2900000000e+00	160.13		3.40e+17		5.0000000000e+00	57.2000000000e+00		c

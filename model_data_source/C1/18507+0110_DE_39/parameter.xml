@@ -1,0 +1,219 @@
+<?xml version="1.0" ?>
+<ModelParameters>
+
+
+    <!-- define number of parameters -->
+    <NumberParameters>20</NumberParameters>
+
+
+    <!-- ============================================================================================================================================= -->
+    <!-- first input file -->
+
+
+    <!-- define min. number of transitions used for SQL query -->
+    <Parameter fit="false">
+        <name>MinNumTransitionsSQL</name>
+        <value>1</value>
+        <error> </error>
+        <lowlimit>0</lowlimit>
+        <uplimit>1</uplimit>
+    </Parameter>
+
+
+    <!-- define max. number of transitions used for SQL query -->
+    <Parameter fit="false">
+        <name>MaxNumTransitionsSQL</name>
+        <value>0</value>
+        <error> </error>
+        <lowlimit>0</lowlimit>
+        <uplimit>1</uplimit>
+    </Parameter>
+
+
+    <!-- define highest lower energy of a transition used for SQL query -->
+    <Parameter fit="false">
+        <name>MaxElowSQL</name>
+        <value>699892.916384</value>
+        <error> </error>
+        <lowlimit>0</lowlimit>
+        <uplimit>1</uplimit>
+    </Parameter>
+
+
+    <!-- define min. intensity of a transition used for SQL query -->
+    <Parameter fit="false">
+        <name>MingASQL</name>
+        <value>0.0</value>
+        <error> </error>
+        <lowlimit>0</lowlimit>
+        <uplimit>1</uplimit>
+    </Parameter>
+
+
+    <!-- define order of a transition used for SQL query -->
+    <Parameter fit="false">
+        <name>OrderTransSQL</name>
+        <value>1</value>
+        <error> </error>
+        <lowlimit>0</lowlimit>
+        <uplimit>1</uplimit>
+    </Parameter>
+
+
+    <!-- define number of molecules -->
+    <Parameter fit="false">
+        <name>Number_Molecules</name>
+        <value>1</value>
+        <error> </error>
+        <lowlimit>0</lowlimit>
+        <uplimit>1</uplimit>
+    </Parameter>
+
+
+    <!-- =========================================================== describe new molecule =========================================================== -->
+    <!-- define Molecule_Name -->
+    <Parameter fit="false">
+        <name>Molecule_Name</name>
+        <value>CH3OCH3;v=0;</value>
+        <error> </error>
+        <lowlimit>0</lowlimit>
+        <uplimit>1</uplimit>
+    </Parameter>
+
+
+    <!-- define Molecule_Inex -->
+    <Parameter fit="false">
+        <name>Molecule_Inex</name>
+        <value>1</value>
+        <error> </error>
+        <lowlimit>0</lowlimit>
+        <uplimit>1</uplimit>
+    </Parameter>
+
+
+    <!-- define Molecule_Name -->
+    <Parameter fit="false">
+        <name>Number_MolLine</name>
+        <value>1</value>
+        <error> </error>
+        <lowlimit>0</lowlimit>
+        <uplimit>1</uplimit>
+    </Parameter>
+
+
+    <!-- ***************************************************** define parameters for component 1 ***************************************************** -->
+
+
+    <!-- define MolfitFileFormatVersion -->
+    <Parameter fit="false">
+        <name>MolfitFileFormatVersion</name>
+        <value>PUR</value>
+        <error> </error>
+        <lowlimit>0</lowlimit>
+        <uplimit>1</uplimit>
+    </Parameter>
+
+
+    <!-- define EmissionFlag -->
+    <Parameter fit="false">
+        <name>EmissionFlag</name>
+        <value>E</value>
+        <error> </error>
+        <lowlimit>0</lowlimit>
+        <uplimit>1</uplimit>
+    </Parameter>
+
+
+    <!-- define tdFlag -->
+    <Parameter fit="false">
+        <name>tdFlag</name>
+        <value>F</value>
+        <error> </error>
+        <lowlimit>0</lowlimit>
+        <uplimit>1</uplimit>
+    </Parameter>
+
+
+    <!-- define nHFlag -->
+    <Parameter fit="false">
+        <name>nHFlag</name>
+        <value>F</value>
+        <error> </error>
+        <lowlimit>0</lowlimit>
+        <uplimit>1</uplimit>
+    </Parameter>
+
+
+    <!-- define source_size -->
+    <Parameter fit="true">
+        <name>source_size</name>
+        <value>1.2900000000e+00</value>
+        <error> </error>
+        <lowlimit>0.0</lowlimit>
+        <uplimit>0.0</uplimit>
+    </Parameter>
+
+
+    <!-- define T_rot -->
+    <Parameter fit="true">
+        <name>T_rot</name>
+        <value>153.49</value>
+        <error> </error>
+        <lowlimit>0.0</lowlimit>
+        <uplimit>0.0</uplimit>
+    </Parameter>
+
+
+    <!-- define N_tot -->
+    <Parameter fit="true">
+        <name>N_tot</name>
+        <value>18.2095150145</value>
+        <error> </error>
+        <lowlimit>0.0</lowlimit>
+        <uplimit>0.0</uplimit>
+    </Parameter>
+
+
+    <!-- define V_width -->
+    <Parameter fit="true">
+        <name>V_width</name>
+        <value>6.0400000000e+00</value>
+        <error> </error>
+        <lowlimit>0.0</lowlimit>
+        <uplimit>0.0</uplimit>
+    </Parameter>
+
+
+    <!-- define V_off -->
+    <Parameter fit="true">
+        <name>V_off</name>
+        <value>57.2000000000e+00</value>
+        <error> </error>
+        <lowlimit>0.0</lowlimit>
+        <uplimit>0.0</uplimit>
+    </Parameter>
+
+
+    <!-- define CFFlag -->
+    <Parameter fit="true">
+        <name>CFFlag</name>
+        <value>c</value>
+        <error> </error>
+        <lowlimit>0.0</lowlimit>
+        <uplimit>0.0</uplimit>
+    </Parameter>
+
+
+    <!-- ============================================================================================================================================= -->
+    <!-- fourth input file -->
+
+
+    <!-- define number of molecules with collision rates -->
+    <Parameter fit="false">
+        <name>Number_MolColRates</name>
+        <value>0</value>
+        <error> </error>
+        <lowlimit>0</lowlimit>
+        <uplimit>1</uplimit>
+    </Parameter>
+</ModelParameters>

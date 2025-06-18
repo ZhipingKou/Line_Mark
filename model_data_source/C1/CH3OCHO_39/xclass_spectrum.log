@@ -1,0 +1,41 @@
+ 
+myXCLASS log-file for the calculation of the spectrum:
+------------------------------------------------------
+ 
+ 
+Calculation starts at Date: 09.12.2024,     Time: 16:25:28
+ 
+ 
+Command line arguments:
+  First frequency:             9.9438414062E+04
+  Last frequency:              1.0131201562E+05
+  Stepsize (resolution):       4.9218750000E-01
+  v_LSR:                       0.0000000000E+00
+  Size of telescope:           1.4400000000E+00
+  Background Temperature:      0.0000000000E+00
+  Temperature Slope:           0.0000000000E+00
+  N_H flag (T/F):              F
+  Isotopologues (T/F):         F
+ 
+ 
+ 
+Number of frequency points of the modelled spectrum = 3807
+ 
+ 
+Beginning of frequency range (\nu = 99438.414 MHz):
+ 
+  Telescope beam FWHM size:                       \theta_T (\nu) = 1.44000 arcsec
+ 
+ 
+End of frequency range (\nu = 101311.680 MHz):
+ 
+  Telescope beam FWHM size:                       \theta_T (\nu) = 1.44000 arcsec
+ 
+ 
+ 
+Molecule: CH3OCHO;v=0;, component: 1
+  Dust temperature (beginning of frequency range):       T_d (\nu_{min}) =            200.00000 K
+  Dust temperature (end of frequency range):             T_d (\nu_{max}) =            200.00000 K
+ 
+ 
+Calculation ends at Date: 09.12.2024,     Time: 16:25:28
